@@ -4,7 +4,7 @@
 }
 
 .headerstyle{
-    font-style: italic;
+    font-style: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large
 }
@@ -12,4 +12,24 @@
 .imagelostitem{
     width: 400px;
     height: 400px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: 3;
+    flex-wrap: wrap
+
+}
+
+
+.text{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
