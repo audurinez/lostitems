@@ -1,3 +1,10 @@
+.backgroundcolor{
+    background-color: lightblue
+    
+}
+
+
+
 .image{
     width: 100px;
     height: 100px;
@@ -17,7 +24,11 @@
 .container{
     display: flex;
     justify-content: center;
-    
+}
+
+.container1{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .gallery{
@@ -25,11 +36,15 @@
     justify-content: space-around;
     flex-shrink: 3;
     flex-wrap: wrap
-
 }
 
 
 .text{
     font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h3{
+    font-size: small;
     font-family: Arial, Helvetica, sans-serif;
 }
